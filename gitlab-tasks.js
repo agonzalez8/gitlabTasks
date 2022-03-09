@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 "use strict";
-require('dotenv');
+require('dotenv').config({path:__dirname+'/.env'});
 
 const {Gitlab} = require('@gitbeaker/node');
 const prompts = require('prompts');
