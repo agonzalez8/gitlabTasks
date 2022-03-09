@@ -1,0 +1,23 @@
+{
+  "name": "gitlabtasks",
+  "version": "1.0.0",
+  "description": "Task management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antonio Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "@gitbeaker/node": "^35.4.0",
+    "chalk": "^2.4.1",
+    "conf": "^10.1.1",
+    "configstore": "^6.0.0",
+    "dotenv": "^16.0.0",
+    "prompts": "^2.4.2",
+    "yargs": "^17.3.1"
+  },
+  "bin": {
+      "gitlab-tasks": "./gitlab-tasks.js"
+  }
+}
